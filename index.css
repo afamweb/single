@@ -409,6 +409,7 @@ img {
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 1.5em;
 }
 .work img{
   height: 10rem;
@@ -630,19 +631,23 @@ img {
   .text p {
     font-size: 1.2em;
   }
+  .work img{
+    height: 15rem;
+    width: 40rem;
+  }
   .bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #030303;
     color: white;
     padding: 2em 0.8rem;
     font-family: "Plus Jakarta Sans";
     border-radius: 1rem;
     text-align: start;
-    gap: 2em;
   }
   .bt {
     width: 50%;
   }
+
 }
