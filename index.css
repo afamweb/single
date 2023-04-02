@@ -404,6 +404,26 @@ img {
     font-size: 0.8em;
   }
 }
+.work {
+  font-family: Plus Jakarta Sans;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.work img{
+  height: 18rem;
+  width: 25rem;
+}
+.work .img {
+  display: flex;
+  overflow: scroll;
+  gap: 1em;
+  
+}
+.work .img::-webkit-scrollbar{
+  width: 0;
+}
+
 .bottom {
   background-color: #030303;
   color: white;
@@ -476,7 +496,7 @@ img {
   .sub {
     display: flex;
     gap: 1em;
-    min-height:14rem;
+    min-height: 14rem;
   }
   .ui {
     position: relative;
@@ -542,10 +562,8 @@ img {
     margin: 0;
   }
   .last {
-    
     display: flex;
     flex-direction: column;
-    /* gap: 1em; */
     width: 50%;
   }
   .photo {
@@ -603,7 +621,7 @@ img {
     width: 100%;
   }
 
-  .text{
+  .text {
     min-width: 50%;
   }
   .text h2 {
@@ -624,7 +642,7 @@ img {
     text-align: start;
     gap: 2em;
   }
-  .bt{
+  .bt {
     width: 50%;
   }
 }
