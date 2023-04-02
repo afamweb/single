@@ -411,8 +411,8 @@ img {
   text-align: center;
 }
 .work img{
-  height: 18rem;
-  width: 25rem;
+  height: 10rem;
+  width: 10rem;
 }
 .work .img {
   display: flex;
